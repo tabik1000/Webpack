@@ -1,0 +1,28 @@
+.video__item{
+    margin: 0 auto;
+    width: 49%;
+    display: flex;
+}
+
+.video__item:nth-child(1){
+    margin-right: 18px; 
+}
+
+@media (max-width: 1023px) {
+    .video__item:nth-child(1){
+        margin-right: 16px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .video__item { 
+        width: 100%; 
+    }  
+
+    .video__item:nth-child(2){
+        margin-top: 8px; 
+    }
+}
+
+
+  

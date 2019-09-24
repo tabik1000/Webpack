@@ -1,0 +1,13 @@
+.place__column {
+    width: 49.18%;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__column {
+      margin: 0 auto;
+      margin-top: 24px;
+      width: 100%;
+    }
+  }
+
+

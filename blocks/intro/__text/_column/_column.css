@@ -1,0 +1,16 @@
+.intro__text_column{
+    margin-top: 35px;
+    width: 383px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text_column{
+        margin-top: 32px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 19px;      
+    }
+}
